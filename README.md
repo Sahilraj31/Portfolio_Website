@@ -21,9 +21,13 @@ Usage:
 
 To use the portfolio website, follow these steps:
   1.Download or clone the project repository.
+  
   2.Open the index.html file in a web browser.
+  
   3.The page will display the portfolio website.
+  
   4.There you can check some general information about my life till now.
+  
   5.To visit my Linkedin or github account there is a button made for both so by clicking on the button you can visit my linkendin and github.
 
   Contact Information:
