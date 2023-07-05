@@ -20,6 +20,7 @@ index.html: The main HTML file that contains the structure of the portfolio webs
 Usage:
 
 To use the portfolio website, follow these steps:
+
   1.Download or clone the project repository.
   
   2.Open the index.html file in a web browser.
