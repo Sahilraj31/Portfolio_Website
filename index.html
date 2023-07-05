@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahil _ Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(1, 1, 23);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        height: 80px;
+        background-color: rgb(18, 18, 98);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(152, 152, 216);
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons{
+        padding: 50px 0;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(157, 64, 244);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(157, 64, 244);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: #0e0e1a;
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 223px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sahil's Portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Sahil</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">
+              <a href="https://www.linkedin.com/in/sahil-raj-18486123b">Visit linkedin</a></button>
+            <button class="btn">
+              <a href="https://github.com/Sahilraj31">Visit GitHub</a>
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="abs.jpg" alt="" />
+            <div class="vertical-title">School Student(2007-2021)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="tint.jpg" alt="" />
+            <div class="vertical-title">College Student(2021-2025)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="html_logo.png" alt="" />
+            <div class="vertical-title">HTML developer(2021-2025)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="nodejs_logo.png" alt="" />
+            <div class="vertical-title">Nodejs developer(2021-2025)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="code_alpha.jpg" alt="" />
+            <div class="vertical-title">Code Alpha Intern(1/07/23-31/07/23)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Sahil's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; www.sahilsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
