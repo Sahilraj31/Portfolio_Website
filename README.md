@@ -33,7 +33,7 @@ To use the portfolio website, follow these steps:
 
   Contact Information:
 
-  If you have any questions or feedback regarding this project, you can reach out to Omkar Abhishek Jha via email at sahilrajs2001@gmail.com or         
+  If you have any questions or feedback regarding this project, you can reach out to Sahil Raj via email at sahilrajs2001@gmail.com or         
   sahil.raj.aiml.2021@tint.edu.in.
 
 Thank you for using the stopwatch and timer!
