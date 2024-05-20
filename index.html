@@ -64,10 +64,10 @@
       .leftSection {
         font-size: 2.5rem;
       }
-      .leftSection .buttons{
+      .leftSection .buttons {
         padding: 50px 0;
       }
-      .leftSection .btn{
+      .leftSection .btn {
         padding: 12px;
         background: #1e2167;
         color: white;
@@ -107,7 +107,7 @@
         height: 93px;
         width: 1px;
         background-color: white;
-        margin: 0 120px;
+        margin: 0 6vw;
       }
       .image-top {
         width: 23px;
@@ -126,24 +126,75 @@
         width: 150px;
         font-size: 9px;
       }
-      footer{
+      footer {
         background-color: #0e0e1a;
       }
-      .footer{
+      .footer {
         display: flex;
         padding: 23px 122px;
         justify-content: space-evenly;
       }
-      .footer ul{
+      .footer ul {
         list-style: none;
       }
-      .footer > div{
+      .footer > div {
         width: 223px;
       }
-      footer .footer-rights{
+      footer .footer-rights {
         text-align: center;
         color: gray;
         padding: 12px 0;
+      }
+      @media screen and (max-width: 1400px) {
+        .box {
+          flex-direction: column;
+        }
+        .secondSection .vertical {
+          height: unset;
+        }
+        .vertical-title,
+        .vertical-desc {
+          left: 45px;
+        }
+        .secondSection .box {
+          width: 50vw;
+        }
+        nav {
+          flex-direction: column;
+        }
+        .firstSection {
+          flex-direction: column-reverse;
+        }
+        .leftSection {
+          width: 100% !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .secondSection {
+          height: 141vh;
+        }
+        .rightSection {
+          width: 411px !important;
+          display: flex;
+          justify-content: center;
+        }
+        .rightSection img {
+          width: 45vw;
+          margin-bottom: 75%;
+        }
+        .image-top {
+          top: 133px;
+        }
+        .secondSection {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        body {
+          min-width: fit-content;
+        }
       }
     </style>
   </head>
@@ -169,7 +220,8 @@
           <span id="element"></span>
           <div class="buttons">
             <button class="btn">
-              <a href="https://www.linkedin.com/in/sahil-raj-18486123b">Visit linkedin</a></button>
+              <a href="https://www.linkedin.com/in/sahil-raj-18486123b">Visit linkedin</a>
+            </button>
             <button class="btn">
               <a href="https://github.com/Sahilraj31">Visit GitHub</a>
             </button>
@@ -189,35 +241,32 @@
             <img class="image-top" src="abs.jpg" alt="" />
             <div class="vertical-title">School Student(2007-2021)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non
+              consequatur alias reiciendis, eius cupiditate.
             </div>
           </div>
           <div class="vertical">
             <img class="image-top" src="tint.jpg" alt="" />
             <div class="vertical-title">College Student(2021-2025)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non
+              consequatur alias reiciendis, eius cupiditate.
             </div>
           </div>
           <div class="vertical">
             <img class="image-top" src="html_logo.png" alt="" />
             <div class="vertical-title">HTML developer(2021-2025)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non
+              consequatur alias reiciendis, eius cupiditate.
             </div>
           </div>
           <div class="vertical">
             <img class="image-top" src="nodejs_logo.png" alt="" />
             <div class="vertical-title">Nodejs developer(2021-2025)</div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="code_alpha.jpg" alt="" />
-            <div class="vertical-title">Code Alpha Intern(1/07/23-31/07/23)</div>
-            <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non consequatur alias reiciendis, eius cupiditate.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem non
+              consequatur alias reiciendis, eius cupiditate.
             </div>
           </div>
         </div>
